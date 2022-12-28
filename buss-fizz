@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int numberlist[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    int i;
+
+    for(i = 0; i < 10; i++ ){
+        if(numberlist[i]% 3 == 0){
+            printf("fizz\n", numberlist[i]);
+
+        }else if(numberlist[i] % 5 == 0){
+            printf("buzz\n", numberlist[i]);
+
+        }else{
+            printf("%d\n",numberlist[i]);
+        }
+
+    }
+
+    return 0;
+}
+
+
